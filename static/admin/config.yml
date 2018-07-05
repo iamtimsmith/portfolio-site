@@ -18,6 +18,17 @@ collections:
       - {label: "Description", name: "description", widget: "text"}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Tags", name: "tags", widget: "list"}
+  
+  - name: "work"
+    label: "Work"
+    folder: "src/pages/work"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: Title, name: title, widget: string}
+      - {label: Full Page Photo, name: fullPagePhoto, widget: image}
+      - {label: Thumbnail 1, name: thumbnailOne, widget: image}
+      - {label: Thumbnail 2, name: thumbnailTwo, widget: image}
 
   - name: "pages"
     label: "Pages"
