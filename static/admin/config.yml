@@ -25,6 +25,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "project-page"}
       - {label: Title, name: title, widget: string}
       - {label: Full Page Photo, name: fullPagePhoto, widget: image}
       - {label: Thumbnail 1, name: thumbnailOne, widget: image}
